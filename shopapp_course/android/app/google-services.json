@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1095335986465",
+    "project_id": "fashionapp-salatyell",
+    "storage_bucket": "fashionapp-salatyell.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1095335986465:android:db5881f34a2e72a520aa60",
+        "android_client_info": {
+          "package_name": "com.example.shopapp_course"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1095335986465-nrp9bbus54bh312e7rdeppc0j0a9jpke.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shopapp_course",
+            "certificate_hash": "bdba61ba9effeffcc114762f0dedd66274468649"
+          }
+        },
+        {
+          "client_id": "1095335986465-e4fno559flj2sp0g8q0e52jlajd653cf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKE-ieE6Kknxaw7gjNcRywHCgHeqeKDug"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1095335986465-e4fno559flj2sp0g8q0e52jlajd653cf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
