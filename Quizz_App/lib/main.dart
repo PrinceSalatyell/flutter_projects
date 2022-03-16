@@ -1,6 +1,6 @@
-import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:quizz_app/screens/quizz_page.dart';
+import 'package:quizz_app/screens/home_screen.dart';
 
 
 void main() {
@@ -12,22 +12,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: QuizzPage(), debugShowCheckedModeBanner: false,);
-  }
-}
-
-class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
-
-  @override
-  _HomePageState createState() => _HomePageState();
-}
-
-class _HomePageState extends State<HomePage> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-
-    );
+    return MaterialApp(home: HomePage(), debugShowCheckedModeBanner: false,);
   }
 }

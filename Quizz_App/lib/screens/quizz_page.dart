@@ -38,9 +38,7 @@ class _QuizzPageState extends State<QuizzPage> {
             },
             itemCount: questions.length,
             itemBuilder: (context, index) {
-              return Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.center,
+              return ListView(
                 children: [
                   SizedBox(
                     width: double.infinity,

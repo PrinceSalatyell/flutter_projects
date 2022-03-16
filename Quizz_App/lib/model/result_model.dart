@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class ResultModel {
   String headMessage;
   String customMessage;
-  Color color;
+  Color? color;
   String image;
 
   ResultModel(

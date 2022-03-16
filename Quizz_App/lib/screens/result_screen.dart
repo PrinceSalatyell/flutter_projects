@@ -1,7 +1,7 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:quizz_app/screens/quizz_page.dart';
-import '../main.dart';
+import 'package:quizz_app/screens/home_screen.dart';
 import 'package:quizz_app/model/result_model.dart';
 
 class ResultScreen extends StatefulWidget {
@@ -20,7 +20,7 @@ class _ResultScreenState extends State<ResultScreen> {
         headMessage: "WHAT WAS THAT?",
         customMessage:
             "you did this on purpose just to see what\n\tI would say right?",
-        color: Colors.white),
+        color: Colors.red[700]),
     ResultModel(
         image: "images/1.jpg",
         headMessage: "DEPLORABLE!",
